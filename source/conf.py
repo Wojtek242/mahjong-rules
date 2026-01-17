@@ -24,7 +24,10 @@ html_context = {
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = [
+    'myst_parser',
+    'sphinx_favicon',
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -36,3 +39,9 @@ language = 'en'
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+favicons = [
+    "favicon/favicon-16x16.png",
+    "favicon/favicon-32x32.png",
+    "favicon/favicon.svg",
+]
