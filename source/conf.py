@@ -13,14 +13,6 @@ author = 'Wojciech Kozlowski'
 version = '1.0.0'
 release = '1.0.0-1'
 
-html_context = {
-    "display_github": True,
-    "github_user": "Wojtek242",
-    "github_repo": "mahjong-rules",
-    "github_version": "main",
-    "conf_py_path": "/source/",
-}
-
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -40,8 +32,18 @@ language = 'en'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
+html_title = 'Mah-Jong Rules'
+
 favicons = [
     "favicon/favicon-16x16.png",
     "favicon/favicon-32x32.png",
     "favicon/favicon.svg",
 ]
+
+html_context = {
+    "display_github": True,
+    "github_user": "Wojtek242",
+    "github_repo": "mahjong-rules",
+    "github_version": "main",
+    "conf_py_path": "/source/",
+}
