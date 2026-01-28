@@ -27,7 +27,7 @@ The East Wind player throws two dice. The roll determines which player's line wi
 
 <img src="_static/prep/choosing-line.png" alt="choosing-line.png" width="200" height="200">
 
-The player indicated by the roll then rolls the two dice again and adds the new result to the previous roll. The new total determines where the wall will be broken, counting from the indicated player's rightmost tile (the diagram below shows the case where the second roll was three, resulting in a sum of 11). If the result is greater than 18, simply continue around the bend to the next line. Break the wall by taking the two tiles at the indicated position and placing them to the player's right, as shown:
+The player indicated by the roll then rolls the two dice again and adds the new result to the previous roll. The new total determines where the wall will be broken, counting from the indicated player's rightmost tile (the diagram below shows the case where the second roll was three, resulting in a sum of 11). If the result is greater than 18, simply continue counting around the bend to the next line. Break the wall by taking the two tiles at the indicated position and placing them to the player's right, as shown:
 
 <img src="_static/prep/break.png" alt="break.png" width="400" height="319">
 
